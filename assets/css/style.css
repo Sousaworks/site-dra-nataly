@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-primary: #4E6B8F;
+  --color-primary-dark: #374D67;
+  --color-primary-light: #E9EEF4;
+  --color-secondary: #C07B88;
+  --color-secondary-dark: #9E5E6A;
+  --color-secondary-light: #F7EAEC;
+  --color-bg: #F9FAFB;
+  --color-surface: #FFFFFF;
+  --color-text-main: #111827;
+  --color-text-muted: #4B5563;
+  --color-border: #E5E7EB;
+  --font-main: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-main);
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: var(--font-main);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Typography Helpers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-main);
+  color: var(--color-text-main);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+/* Custom Shadows from Reference */
+.shadow-soft {
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
+}
+
+.shadow-card {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 15px 40px rgba(78, 107, 143, 0.15);
+  transform: translateY(-3px);
+}
+
+/* Flip-Box 3D Component */
+.flip-box {
+  background-color: transparent;
+  perspective: 1000px;
+  min-height: 280px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  text-align: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+  border-radius: 15px;
+}
+
+.flip-box:hover .flip-box-inner,
+.flip-box:focus-within .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.flip-box-front {
+  background-color: #FFFFFF;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-main);
+}
+
+.flip-box-back {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: #FFFFFF;
+  transform: rotateY(180deg);
+}
+
+/* Interactive Accordion Transitions */
+.accordion-content {
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+/* Touch Targets Minimum 44x44px for Accessibility */
+a, button, input, select, textarea {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Buttons with Pill Shape */
+.btn-pill {
+  border-radius: 9999px;
+  padding: 12px 28px;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-dark);
+  color: #FFFFFF;
+}
+
+.btn-whatsapp {
+  background-color: #25D366;
+  color: #FFFFFF;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1EBE5D;
+  color: #FFFFFF;
+}
+
+/* Pulsing Glow Effect for Video/CTA */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(192, 123, 136, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(192, 123, 136, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(192, 123, 136, 0);
+  }
+}
+
+.pulse-glow {
+  animation: pulseGlow 2s infinite;
+}
+
+/* Mobile Responsiveness Rules */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .flip-box {
+    min-height: 240px;
+  }
+  .flip-box-inner {
+    min-height: 240px;
+  }
+}

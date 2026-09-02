@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Blog de Saúde da Mulher — Dra. Nataly Nunes</title>
+  <link>https://skyblue-hornet-587488.hostingersite.com/blog</link>
+  <description>Artigos médicos e orientações clínicas sobre ginecologia preventiva, Papanicolau, colocação de DIU e pré-natal particular em Lisboa.</description>
+  <language>pt-br</language>
+  <lastBuildDate>Sat, 22 Aug 2026 09:00:00 +0100</lastBuildDate>
+  <atom:link href="https://skyblue-hornet-587488.hostingersite.com/feed.xml" rel="self" type="application/rss+xml" />
+
+  <item>
+    <title>Com que frequência devo fazer a consulta ginecológica?</title>
+    <link>https://skyblue-hornet-587488.hostingersite.com/blog/frequencia-consulta-ginecologica</link>
+    <guid isPermaLink="true">https://skyblue-hornet-587488.hostingersite.com/blog/frequencia-consulta-ginecologica</guid>
+    <pubDate>Sat, 15 Aug 2026 09:00:00 +0100</pubDate>
+    <description><![CDATA[Descubra por que a consulta ginecológica anual é recomendada pela Ordem dos Médicos e quais os sinais de alerta que exigem avaliação médica antes do prazo.]]></description>
+    <author>dranataly@dra-nataly.pt (Dra. Nataly Nunes)</author>
+  </item>
+
+  <item>
+    <title>DIU vs. implante contraceptivo: qual o método certo para si?</title>
+    <link>https://skyblue-hornet-587488.hostingersite.com/blog/diu-vs-implante-contraceptivo</link>
+    <guid isPermaLink="true">https://skyblue-hornet-587488.hostingersite.com/blog/diu-vs-implante-contraceptivo</guid>
+    <pubDate>Tue, 18 Aug 2026 09:00:00 +0100</pubDate>
+    <description><![CDATA[Comparativo detalhado entre DIU de cobre, DIU hormonal e implante subcutâneo: duração, eficácia, colocação in-office e efeitos no organismo.]]></description>
+    <author>dranataly@dra-nataly.pt (Dra. Nataly Nunes)</author>
+  </item>
+
+  <item>
+    <title>Pré-natal particular em Lisboa: o que está incluído e quais as vantagens</title>
+    <link>https://skyblue-hornet-587488.hostingersite.com/blog/pre-natal-particular-lisboa-vantagens</link>
+    <guid isPermaLink="true">https://skyblue-hornet-587488.hostingersite.com/blog/pre-natal-particular-lisboa-vantagens</guid>
+    <pubDate>Sat, 22 Aug 2026 09:00:00 +0100</pubDate>
+    <description><![CDATA[Guia detalhado sobre a assistência pré-natal particular em Lisboa: cronograma por trimestres, ecografias, exames e contacto direto com a médica.]]></description>
+    <author>dranataly@dra-nataly.pt (Dra. Nataly Nunes)</author>
+  </item>
+
+</channel>
+</rss>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="logoPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4E6B8F"/>
+      <stop offset="100%" stop-color="#344860"/>
+    </linearGradient>
+    <linearGradient id="logoAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C07B88"/>
+      <stop offset="100%" stop-color="#A55F6D"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(10, 10)">
+    <rect width="60" height="60" rx="14" fill="url(#logoPrimary)"/>
+    <path d="M30 13 C24 21 18 27 18 35 C18 43 23.5 48 30 48 C36.5 48 42 43 42 35 C42 27 36 21 30 13 Z" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M30 22 C27 27 24 32 24 36 C24 40 26.5 43 30 43 C33.5 43 36 40 36 36 C36 32 33 27 30 22 Z" fill="url(#logoAccent)" opacity="0.9"/>
+  </g>
+  <text x="82" y="38" font-family="'Outfit', sans-serif" font-size="22" font-weight="700" fill="#111827">Dra. Nataly Nunes</text>
+  <text x="82" y="56" font-family="'Outfit', sans-serif" font-size="12" font-weight="500" fill="#4E6B8F" letter-spacing="1.5">GINECOLOGIA &amp; SAÚDE DA MULHER</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3E5571"/>
+      <stop offset="100%" stop-color="#243344"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="200" height="200" fill="url(#bgGrad)"/>
+  <rect width="200" height="200" fill="url(#grid)"/>
+  <g transform="scale(0.25)">
+    
+        <circle cx="400" cy="230" r="60" fill="#FFFFFF" opacity="0.9"/>
+        <path d="M300 420 C300 330 500 330 500 420 Z" fill="#FFFFFF" opacity="0.9"/>
+        <circle cx="400" cy="225" r="45" fill="#C07B88"/>
+        <path d="M360 290 L400 350 L440 290 Z" fill="#FFFFFF"/>
+        
+    <text x="400" y="470" font-family="'Outfit', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">A. Ferreira</text>
+    <text x="400" y="505" font-family="'Outfit', sans-serif" font-size="18" font-weight="400" fill="#E5E7EB" text-anchor="middle">Paciente Verificada · Lisboa</text>
+    <rect x="360" y="525" width="80" height="4" rx="2" fill="#C07B88"/>
+  </g>
+</svg>

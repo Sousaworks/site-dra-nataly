@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C07B88"/>
+      <stop offset="100%" stop-color="#7E4752"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <g transform="scale(1.0)">
+    
+        <circle cx="400" cy="240" r="70" fill="#FFFFFF" opacity="0.9"/>
+        <rect x="390" y="195" width="20" height="90" rx="6" fill="#4E6B8F"/>
+        <rect x="355" y="230" width="90" height="20" rx="6" fill="#4E6B8F"/>
+        
+    <text x="400" y="470" font-family="'Outfit', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">DIU vs Implante Subcutâneo</text>
+    <text x="400" y="505" font-family="'Outfit', sans-serif" font-size="18" font-weight="400" fill="#E5E7EB" text-anchor="middle">Guia Comparativo de Métodos</text>
+    <rect x="360" y="525" width="80" height="4" rx="2" fill="#4E6B8F"/>
+  </g>
+</svg>

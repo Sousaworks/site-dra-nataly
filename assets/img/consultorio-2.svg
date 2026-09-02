@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#344860"/>
+      <stop offset="100%" stop-color="#1F2A38"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  <g transform="scale(1.0)">
+    
+        <rect x="330" y="180" width="140" height="150" rx="10" fill="#FFFFFF" opacity="0.9"/>
+        <polygon points="400,120 310,185 490,185" fill="#C07B88"/>
+        <rect x="385" y="270" width="30" height="60" fill="#344860"/>
+        <circle cx="400" cy="220" r="18" fill="#C07B88"/>
+        <rect x="395" y="208" width="10" height="24" fill="#FFFFFF"/>
+        <rect x="388" y="215" width="24" height="10" fill="#FFFFFF"/>
+        
+    <text x="400" y="470" font-family="'Outfit', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">Espaço Tranquilo e Acolhedor</text>
+    <text x="400" y="505" font-family="'Outfit', sans-serif" font-size="18" font-weight="400" fill="#E5E7EB" text-anchor="middle">Equipamento Clínico Especializado</text>
+    <rect x="360" y="525" width="80" height="4" rx="2" fill="#C07B88"/>
+  </g>
+</svg>

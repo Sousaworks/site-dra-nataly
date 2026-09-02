@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4E6B8F"/>
+      <stop offset="100%" stop-color="#2D3E52"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <g transform="scale(1.0)">
+    
+        <path d="M400 150 L470 190 V270 C470 330 400 370 400 370 C400 370 330 330 330 270 V190 Z" fill="#FFFFFF" opacity="0.9"/>
+        <path d="M400 170 L450 200 V265 C450 310 400 345 400 345 C400 345 350 310 350 265 V200 Z" fill="#C07B88"/>
+        <path d="M380 260 L395 275 L425 240" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"/>
+        
+    <text x="400" y="470" font-family="'Outfit', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">Colposcopia e Diagnóstico</text>
+    <text x="400" y="505" font-family="'Outfit', sans-serif" font-size="18" font-weight="400" fill="#E5E7EB" text-anchor="middle">Avaliação Especializada do Colo Uterino</text>
+    <rect x="360" y="525" width="80" height="4" rx="2" fill="#C07B88"/>
+  </g>
+</svg>

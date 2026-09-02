@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C07B88"/>
+      <stop offset="100%" stop-color="#693740"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <g transform="scale(1.0)">
+    
+        <circle cx="400" cy="230" r="60" fill="#FFFFFF" opacity="0.9"/>
+        <path d="M300 420 C300 330 500 330 500 420 Z" fill="#FFFFFF" opacity="0.9"/>
+        <circle cx="400" cy="225" r="45" fill="#4E6B8F"/>
+        <path d="M360 290 L400 350 L440 290 Z" fill="#FFFFFF"/>
+        
+    <text x="400" y="470" font-family="'Outfit', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">Menopausa e Longevidade</text>
+    <text x="400" y="505" font-family="'Outfit', sans-serif" font-size="18" font-weight="400" fill="#E5E7EB" text-anchor="middle">Acompanhamento Hormonal Personalizado</text>
+    <rect x="360" y="525" width="80" height="4" rx="2" fill="#4E6B8F"/>
+  </g>
+</svg>
