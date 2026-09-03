@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Serviços de Ginecologia em Lisboa | Dra. Nataly</title>
   <meta name="description" content="Consultas de rotina, colocação de DIU e pré-natal particular em Lisboa. Cuidado médico completo para a saúde da mulher. Agende já.">
-  <link rel="canonical" href="https://skyblue-hornet-587488.hostingersite.com/servicos">
+  <link rel="canonical" href="https://machup.shop/servicos">
   <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
   <meta name="theme-color" content="#4E6B8F">
 
@@ -14,15 +14,15 @@
   <meta property="og:site_name" content="Consultório Dra. Nataly Nunes">
   <meta property="og:title" content="Serviços de Ginecologia em Lisboa | Dra. Nataly">
   <meta property="og:description" content="Consultas de rotina, colocação de DIU e pré-natal particular em Lisboa. Cuidado médico completo para a saúde da mulher. Agende já.">
-  <meta property="og:url" content="https://skyblue-hornet-587488.hostingersite.com/servicos">
-  <meta property="og:image" content="https://skyblue-hornet-587488.hostingersite.com/assets/img/hero-bg.webp">
+  <meta property="og:url" content="https://machup.shop/servicos">
+  <meta property="og:image" content="https://machup.shop/assets/img/hero-bg.webp">
   <meta property="og:locale" content="pt_BR">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Serviços de Ginecologia em Lisboa | Dra. Nataly">
   <meta name="twitter:description" content="Consultas de rotina, colocação de DIU e pré-natal particular em Lisboa. Cuidado médico completo para a saúde da mulher. Agende já.">
-  <meta name="twitter:image" content="https://skyblue-hornet-587488.hostingersite.com/assets/img/hero-bg.webp">
+  <meta name="twitter:image" content="https://machup.shop/assets/img/hero-bg.webp">
 
   <!-- Google Consent Mode v2 Setup (Default Denied) -->
   <script>
@@ -45,14 +45,44 @@
   </script>
   -->
 
-  <!-- Font is loaded without blocking the first paint. -->
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Icons do not block initial rendering. -->
-  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
+  <!-- FontAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Tailwind CSS CDN + Custom Configuration -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              DEFAULT: '#4E6B8F',
+              dark: '#374D67',
+              light: '#E9EEF4'
+            },
+            secondary: {
+              DEFAULT: '#C07B88',
+              dark: '#9E5E6A',
+              light: '#F7EAEC'
+            },
+            surface: '#FFFFFF',
+            bglight: '#F9FAFB',
+            darkoverlay: '#080C14',
+            maintext: '#111827',
+            mutedtext: '#4B5563'
+          },
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="/assets/css/style.css">
@@ -66,13 +96,13 @@
   "@graph": [
     {
       "@type": "MedicalOrganization",
-      "@id": "https://skyblue-hornet-587488.hostingersite.com/#organization",
+      "@id": "https://machup.shop/#organization",
       "name": "Consultório Dra. Nataly Nunes",
       "legalName": "Nataly Sofia da Silva Nunes, Médica Unipessoal Lda.",
-      "url": "https://skyblue-hornet-587488.hostingersite.com",
+      "url": "https://machup.shop",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://skyblue-hornet-587488.hostingersite.com/assets/img/logo.png",
+        "url": "https://machup.shop/assets/img/logo.png",
         "caption": "Consultório Dra. Nataly Nunes"
       },
       "telephone": "+351912000587",
@@ -83,11 +113,11 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://skyblue-hornet-587488.hostingersite.com/#website",
-      "url": "https://skyblue-hornet-587488.hostingersite.com",
+      "@id": "https://machup.shop/#website",
+      "url": "https://machup.shop",
       "name": "Consultório Dra. Nataly Nunes",
       "publisher": {
-        "@id": "https://skyblue-hornet-587488.hostingersite.com/#organization"
+        "@id": "https://machup.shop/#organization"
       },
       "inLanguage": "pt-BR"
     },
@@ -96,57 +126,57 @@
         "WebPage",
         "CollectionPage"
       ],
-      "@id": "https://skyblue-hornet-587488.hostingersite.com/servicos#webpage",
-      "url": "https://skyblue-hornet-587488.hostingersite.com/servicos",
+      "@id": "https://machup.shop/servicos#webpage",
+      "url": "https://machup.shop/servicos",
       "name": "Serviços de Ginecologia em Lisboa | Dra. Nataly",
       "description": "Consultas de rotina, colocação de DIU e pré-natal particular em Lisboa. Cuidado médico completo para a saúde da mulher. Agende já.",
       "isPartOf": {
-        "@id": "https://skyblue-hornet-587488.hostingersite.com/#website"
+        "@id": "https://machup.shop/#website"
       },
       "inLanguage": "pt-BR",
       "breadcrumb": {
-        "@id": "https://skyblue-hornet-587488.hostingersite.com/servicos#breadcrumb"
+        "@id": "https://machup.shop/servicos#breadcrumb"
       }
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://skyblue-hornet-587488.hostingersite.com/servicos#breadcrumb",
+      "@id": "https://machup.shop/servicos#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Início",
-          "item": "https://skyblue-hornet-587488.hostingersite.com/"
+          "item": "https://machup.shop/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Serviços",
-          "item": "https://skyblue-hornet-587488.hostingersite.com/servicos"
+          "item": "https://machup.shop/servicos"
         }
       ]
     },
     {
       "@type": "ItemList",
-      "@id": "https://skyblue-hornet-587488.hostingersite.com/servicos#itemlist",
+      "@id": "https://machup.shop/servicos#itemlist",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Consulta Ginecológica de Rotina",
-          "url": "https://skyblue-hornet-587488.hostingersite.com/servicos/consulta-ginecologica-de-rotina"
+          "url": "https://machup.shop/servicos/consulta-ginecologica-de-rotina"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Planeamento Reprodutivo e Contracepção",
-          "url": "https://skyblue-hornet-587488.hostingersite.com/servicos/planejamento-reprodutivo-e-contracepcao"
+          "url": "https://machup.shop/servicos/planejamento-reprodutivo-e-contracepcao"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Pré-Natal e Acompanhamento Gestacional",
-          "url": "https://skyblue-hornet-587488.hostingersite.com/servicos/pre-natal-e-acompanhamento-gestacional"
+          "url": "https://machup.shop/servicos/pre-natal-e-acompanhamento-gestacional"
         }
       ]
     }

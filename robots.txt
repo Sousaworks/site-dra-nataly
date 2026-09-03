@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://skyblue-hornet-587488.hostingersite.com/sitemap.xml
+Sitemap: https://machup.shop/sitemap.xml
 
 # Permitir crawlers de IA (importante para visibilidade em buscas com IA em 2026)
 User-agent: GPTBot
