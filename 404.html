@@ -46,44 +46,14 @@
   </script>
   -->
 
-  <!-- Google Fonts: Outfit -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Font is loaded without blocking the first paint. -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
 
-  <!-- FontAwesome Icons CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-  <!-- Tailwind CSS CDN + Custom Configuration -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: {
-              DEFAULT: '#4E6B8F',
-              dark: '#374D67',
-              light: '#E9EEF4'
-            },
-            secondary: {
-              DEFAULT: '#C07B88',
-              dark: '#9E5E6A',
-              light: '#F7EAEC'
-            },
-            surface: '#FFFFFF',
-            bglight: '#F9FAFB',
-            darkoverlay: '#080C14',
-            maintext: '#111827',
-            mutedtext: '#4B5563'
-          },
-          fontFamily: {
-            sans: ['Outfit', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
+  <!-- Icons do not block initial rendering. -->
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="/assets/css/style.css">
