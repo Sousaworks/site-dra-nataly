@@ -18,12 +18,15 @@ function initCookieConsent() {
   const savedConsent = localStorage.getItem('cookie_consent');
 
   if (!savedConsent) {
-    banner.classList.remove('hidden');
-    banner.classList.add('flex');
+    showBanner(banner);
   } else if (savedConsent === 'granted') {
     applyConsent('granted');
+    banner.classList.add('hidden');
+    banner.classList.remove('flex');
   } else {
     applyConsent('denied');
+    banner.classList.add('hidden');
+    banner.classList.remove('flex');
   }
 
   if (btnAccept) {
