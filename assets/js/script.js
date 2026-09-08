@@ -11,6 +11,7 @@ function initCookieConsent() {
   const banner = document.getElementById('cookie-consent-bar');
   const btnAccept = document.getElementById('cookie-accept-btn');
   const btnReject = document.getElementById('cookie-reject-btn');
+  const btnManage = document.getElementById('cookie-manage-btn');
 
   if (!banner) return;
 
@@ -40,6 +41,13 @@ function initCookieConsent() {
       hideBanner(banner);
     });
   }
+
+  if (btnManage) {
+    btnManage.addEventListener('click', () => {
+      showBanner(banner);
+      btnReject?.focus();
+    });
+  }
 }
 
 function applyConsent(status) {
@@ -59,6 +67,11 @@ function hideBanner(banner) {
     banner.classList.add('hidden');
     banner.classList.remove('flex');
   }, 300);
+}
+
+function showBanner(banner) {
+  banner.classList.remove('hidden', 'opacity-0', 'translate-y-full');
+  banner.classList.add('flex');
 }
 
 // Smooth scroll helper
