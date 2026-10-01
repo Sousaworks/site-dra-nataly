@@ -20,7 +20,7 @@
         <rect x="388" y="215" width="24" height="10" fill="#FFFFFF"/>
         
     <text x="400" y="470" font-family="'Outfit', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">Consultório Privado</text>
-    <text x="400" y="505" font-family="'Outfit', sans-serif" font-size="18" font-weight="400" fill="#E5E7EB" text-anchor="middle">Av. da República, 47 · Lisboa</text>
+    <text x="400" y="505" font-family="'Outfit', sans-serif" font-size="18" font-weight="400" fill="#E5E7EB" text-anchor="middle">Av. da República, 47 · Recife</text>
     <rect x="360" y="525" width="80" height="4" rx="2" fill="#C07B88"/>
   </g>
 </svg>
